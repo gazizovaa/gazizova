@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +9,14 @@
 
     <link rel="shortcut icon" href="/img/my_logo.ico">
     <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
-        <aside class="sidebar active" data-sidebar>
+        <aside class="sidebar" data-sidebar>
             <div class="sidebar-info">
                 <figure class="profile-box">
                     <img src="img/profile_photo.jpg" alt="Gulnara Azizova" width="80">
@@ -48,7 +49,7 @@
                     </li>
 
                     <li class="contact-item">
-                        <div class="contact-info">
+                        <div class="icon-box">
                             <ion-icon name="location-outline"></ion-icon>
                         </div>
 
@@ -101,7 +102,6 @@
                         <button class="navbar-link" data-nav-link>Contact</button>
                     </li>
                 </ul>
-
             </nav>
 
             <article class="about active" data-page="about">
@@ -135,7 +135,6 @@
                             <span>Sep 2019 - May 2024</span>
                         </li>
                     </ol>
-
                 </section>
 
                 <section class="timeline">
@@ -224,6 +223,66 @@
                     </ol>
                 </section>
 
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Certifications</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Baku ID 2024 Certificate</h4>
+                            <h5 class="h3 timeline-item-name">Sabah.Hub Innovation Center</h5>
+                            <span>Jul 2024</span>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Ceritificate of Completion - Standford University's Code in Place</h4>
+                            <h5 class="h3 timeline-item-name">Code in Place</h5>
+                            <span>Jun 2024</span>
+                            
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Certified Graphic Designer</h4>
+                            <h5 class="h3 timeline-item-name">Undergraduate Student Government ADA</h5>
+                            <span>Jun 2024</span>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Foundations: Data, Data, Everywhere</h4>
+                            <h5 class="h3 timeline-item-name">Coursera</h5>
+                            <span>Jan 2024</span>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Introduction to Data Analytics</h4>
+                            <h5 class="h3 timeline-item-name">Coursera</h5>
+                            <span>Jan 2024</span>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">SQL (Basic) Certificate</h4>
+                            <h5 class="h3 timeline-item-name">HackerRank</h5>
+                            <span>Sep 2023</span>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Certified Graphic Designer Intern</h4>
+                            <h5 class="h3 timeline-item-name">ESN Azerbaijan</h5>
+                            <span>Jun 2023</span>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Upper-Intermediate/B2 Level in English for Academic and Professional Purposes Program</h4>
+                            <h5 class="h3 timeline-item-name">ADA University</h5>
+                            <span>Jun 2023</span>
+                        </li>
+                    </ol>
+                </section>
             </article>
 
             <article class="portfolio" data-page="portfolio">
@@ -242,7 +301,7 @@
                         </li>
 
                         <li class="filter-item">
-                            <button data-filter-btn>Mobile Apps</button>
+                            <button data-filter-btn>Mobile Development</button>
                         </li>
 
                         <li class="filter-item">
@@ -269,7 +328,7 @@
                             </li>
 
                             <li class="select-item">
-                                <button data-select-item>Mobile Apps</button>
+                                <button data-select-item>Mobile Development</button>
                             </li>
 
                             <li class="select-item">
@@ -278,6 +337,163 @@
                         </ul>
 
                     </div>
+
+                    <ul class="project-list">
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                          <a href="https://github.com/gazizovaa/W-app">
+                            <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+            
+                              <img src="img/weather_app_icon.png" alt="weather app" loading="lazy">
+                            </figure>
+                            <h3 class="project-title">Weather App</h3>
+                            <p class="project-category">Web development</p>
+                          </a>
+                        </li>
+            
+                        <li class="project-item  active" data-filter-item data-category="mobile development">
+                          <a href="https://github.com/gazizovaa/TheCounterApp">
+                            <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+            
+                              <img src="img/counter_app.png" alt="the counter app" loading="lazy">
+                            </figure>
+                            <h3 class="project-title">The Counter App</h3>
+                            <p class="project-category">Mobile Development</p>
+                          </a>
+                        </li>
+            
+                        <li class="project-item  active" data-filter-item data-category="web design">
+                          <a href="#">
+            
+                            <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+            
+                              <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                            </figure>
+            
+                            <h3 class="project-title">Fundo</h3>
+            
+                            <p class="project-category">Web design</p>
+            
+                          </a>
+                        </li>
+            
+                        <li class="project-item  active" data-filter-item data-category="applications">
+                          <a href="#">
+            
+                            <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+            
+                              <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                            </figure>
+            
+                            <h3 class="project-title">Brawlhalla</h3>
+            
+                            <p class="project-category">Applications</p>
+            
+                          </a>
+                        </li>
+            
+                        <li class="project-item  active" data-filter-item data-category="web design">
+                          <a href="#">
+            
+                            <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+            
+                              <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                            </figure>
+            
+                            <h3 class="project-title">DSM.</h3>
+            
+                            <p class="project-category">Web design</p>
+            
+                          </a>
+                        </li>
+            
+                        <li class="project-item  active" data-filter-item data-category="web design">
+                          <a href="#">
+            
+                            <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+            
+                              <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                            </figure>
+            
+                            <h3 class="project-title">MetaSpark</h3>
+            
+                            <p class="project-category">Web design</p>
+            
+                          </a>
+                        </li>
+            
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                          <a href="#">
+            
+                            <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+            
+                              <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                            </figure>
+            
+                            <h3 class="project-title">Summary</h3>
+            
+                            <p class="project-category">Web development</p>
+            
+                          </a>
+                        </li>
+            
+                        <li class="project-item  active" data-filter-item data-category="applications">
+                          <a href="#">
+            
+                            <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+            
+                              <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                            </figure>
+            
+                            <h3 class="project-title">Task Manager</h3>
+            
+                            <p class="project-category">Applications</p>
+            
+                          </a>
+                        </li>
+            
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                          <a href="#">
+            
+                            <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+            
+                              <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                            </figure>
+            
+                            <h3 class="project-title">Arrival</h3>
+            
+                            <p class="project-category">Web development</p>
+            
+                          </a>
+                        </li>
+            
+                      </ul>
 
                 </section>
 
