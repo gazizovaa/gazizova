@@ -13,3 +13,17 @@ const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");
 
 const filterItems = document.querySelectorAll("[data-filter-item]");
+
+const form = document.querySelector("[data-form]");
+const formInputs = document.querySelectorAll("[data-form-input]");
+const formBtn = document.querySelector("[data-form-btn]");
+for (let i = 0; i < formInputs.length; i++) {
+    formInputs[i].addEventListener("input", function () {
+        if (form.checkValidity()) {
+            formBtn.removeAttribute("disabled");
+        }else {
+            formBtn.setAttribute("disabled", "");
+        }
+
+    });
+}
