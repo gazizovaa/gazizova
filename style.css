@@ -103,7 +103,8 @@ html {
 }
 
 body {
-  background: var(--smoky-black);
+  background-image: url(img/web_background.png);
+  object-fit: cover;
 }
 
 .sidebar,
