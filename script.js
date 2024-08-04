@@ -11,9 +11,11 @@ sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); }
 
 const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");
-const selectValue = document.querySelector("[data-selecct-value]");
+const selectValue = document.querySelector("[data-select-value]");
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
+
 select.addEventListener("click", function () { elementToggleFunc(this); });
+
 for (let i = 0; i < selectItems.length; i++) {
     selectItems[i].addEventListener("click", function () {
       let selectedValue = this.innerText.toLowerCase();
@@ -24,6 +26,7 @@ for (let i = 0; i < selectItems.length; i++) {
   }
 
 const filterItems = document.querySelectorAll("[data-filter-item]");
+
 const filterFunc = function (selectedValue) {
     for (let i = 0; i < filterItems.length; i++) {
       if (selectedValue === "all") {
