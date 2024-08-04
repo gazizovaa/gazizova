@@ -457,6 +457,22 @@ main {
   margin-bottom: 15px;
 }
 
+.honors-and-awards p {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.honors-and-awards a {
+  color: var(--midnightblue-blue-crayola);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.honors-and-awards a:hover {
+  text-decoration: underline;
+}
+
 .article-title {
   margin-bottom: 30px;
 }
