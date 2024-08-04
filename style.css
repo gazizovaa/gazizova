@@ -457,38 +457,6 @@ main {
   margin-bottom: 15px;
 }
 
-.honors-and-awards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
-}
-
-.honors-and-awards .container {
-  display: flex;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.honors-and-awards .scholaarship-text {
-  flex: 1;
-  padding-right: 20px;
-}
-
-.honors-and-awards .scholaarship-img {
-  flex: 1;
-  text-align: right;
-}
-
-.honors-and-awards img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
 .article-title {
   margin-bottom: 30px;
 }
