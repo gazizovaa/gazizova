@@ -103,8 +103,7 @@ html {
 }
 
 body {
-  background-image: url(img/web_background.png);
-  object-fit: cover;
+  background-color: white;
 }
 
 .sidebar,
